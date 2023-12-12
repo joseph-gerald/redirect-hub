@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/index.css">
+    <title>Redirect Hub</title>
+    <script src="scripts/index.js" defer></script>
+</head>
+
+<body>
+    <div class="sections center-self">
+        <div class="section landing">
+            <div class="center-self">
+                <h1>Redirect Hub</h1>
+                <p>Redirect Hub is a free and open source URL shortener.</p>
+                <p>It is currently in development.</p>
+            </div>
+            <i class="hint">scroll down...</i>
+        </div>
+        <div class="section">
+            <div class="center-self">
+                <div class="account">
+                    <h2>Account</h2>
+                    <p>Sign in to manage your links.</p>
+                    <div class="fields">
+                        <input type="text" placeholder="Username">
+                        <input type="password" placeholder="Password">
+                    </div>
+                    <div class="buttons">
+                        <button class="button">Sign in</button>
+                        <button class="button">Sign up</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="pagination">
+        <div onclick="doScroll(sectionIndex = 0)" class="pagination-dot cursor-pointer"></div>
+        <div onclick="doScroll(sectionIndex = 1)" class="pagination-dot cursor-pointer"></div>
+    </div>
+</body>
+</html>

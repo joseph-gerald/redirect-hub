@@ -10,6 +10,9 @@ router.get('/robots.min.txt', apiController.getRobotsMinified);
 // api logic
 router.post('/api/v1/ping', apiController.ping);
 
+router.post('/api/v1/login', apiController.login);
+router.post('/api/v1/register', apiController.register);
+
 router.use((req, res, next) => {
     if (req.method === 'GET') {
         errorController.get404Page(req, res);

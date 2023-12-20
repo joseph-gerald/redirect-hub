@@ -1,7 +1,7 @@
 const path = require('path');
 const { default: mongoose } = require('mongoose');
 const MongoClient = require('mongodb').MongoClient;
-const User = require('../models/user');
+const User = require('../models/User');
 
 require('dotenv').config();
 
